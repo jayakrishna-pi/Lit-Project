@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from './components/Login/Login';
+import Navbar from './components/Navbar/Navbar';
+import Playit from './components/Playit/Playit';
+import SecondNavbar from './components/SecondNavbar/SecondNavbar';
+import Categories from './components/Categories/Categoriges';
+import { useState } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+  const [openCategories, setOpenCategories] = useState(false)
+
+  return (
+   <div className='app-container'>
+    {/* <Login/> */}
+     {!openCategories &&  <Playit setOpenCategories={setOpenCategories} /> }
+      {openCategories && <Categories />}
+
+
+    
+   
+   </div>
+)}
 export default App;

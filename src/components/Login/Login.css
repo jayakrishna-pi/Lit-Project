@@ -1,0 +1,44 @@
+.login-page{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding:200px;
+}
+.log-head{
+    color:white;
+    font-size: 30px;
+}
+.email{
+    height:27px;
+    width:300px;
+    font-size:14px;
+    font-weight: 600;
+    border-width:0px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top:10px;
+    outline: 0px;
+
+}
+.pass{
+    height:27px;
+    width:300px;
+    font-size:14px;
+    font-weight: 600; 
+    border-width:0px;
+    outline: 0px;
+    
+}
+.button{
+    height:40px;
+    width:120px;
+    border-radius:10px;
+    margin-top: 30px;
+    font-weight: 600;
+    color:rgb(112, 112, 112);
+    outline: 0px;
+    border-width: 0px;
+    
+}

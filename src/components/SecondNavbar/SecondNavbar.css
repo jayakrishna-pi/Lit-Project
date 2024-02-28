@@ -1,0 +1,30 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.lit-logo{
+    height:100px;
+    width:100px;
+}
+.second-nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 85%;
+    color:white;
+    font-size:25px;
+    font-family: "cs gorden serif";
+    font-weight: bold;
+}
+.lit{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "cs gorden serif";
+    
+}

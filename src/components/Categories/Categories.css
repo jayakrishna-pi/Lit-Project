@@ -1,0 +1,45 @@
+
+
+.heading{
+    color:white;
+    font-size: 30px;
+     font-family: "cs gorden serif";
+     font-weight: 600;
+     text-align: center;
+     padding:100px;
+}
+
+.bag-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    width:100%;
+    border-width: 0px;
+}
+.text-bag{
+    color:white;
+    font-size:30px;
+    font-family:cs gorden serif ;    
+    font-weight: 600;  
+    margin-top: 0px;  
+}
+
+.bag-image{
+    height:350px;
+    width:200px;
+    margin-bottom: 0px;
+}
+.bg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.shoe-image{
+    height:400px;
+    width:350px;
+    margin-bottom:0px;
+
+}
